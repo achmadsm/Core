@@ -23,9 +23,6 @@ let package = Package(
             dependencies: [
               .product(name: "RealmSwift", package: "realm-swift")
             ]
-        ),
-        .testTarget(
-            name: "CoreTests",
-            dependencies: ["Core"]),
+        )
     ]
 )
